@@ -12,7 +12,7 @@ Reg=-R83/90/25/30
 Pro=-Jm3
 
 # Input grid and color palettes
-GRD=topo30.grd
+GRD=/home/ancientai/Documents/7th_Sem/CAG/topo30.grd
 CPT=relief.cpt
 
 # Output file
@@ -44,7 +44,7 @@ awk '{print $2, $1}' location.dat | gmt psxy $Reg $Pro -Sx0.5i -Gblue -W3,purple
 # Step 8: Label the cities
 # gmt pstext cities.dat $Reg $Pro -F+f10p,Times-Roman+jRT -D0.1i/0.1i -O -K >> $ps
 
-okular answer.ps
+okular $ps
 
 # Step 9: Finalize the PostScript file
 # gmt gmtshow $ps

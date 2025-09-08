@@ -1,0 +1,4 @@
+Receiver 80 25
+Event 28 20 160
+
+Piercing Point at 410Km P and SKKS

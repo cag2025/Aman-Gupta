@@ -1,0 +1,2228 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search — GMT 6.6.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/pygments.css">
+      <link rel="stylesheet" type="text/css" href="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/theme.css">
+      <link rel="stylesheet" type="text/css" href="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/copybutton.css">
+      <link rel="stylesheet" type="text/css" href="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/togglebutton.css">
+      <link rel="stylesheet" type="text/css" href="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/sphinx-design.min.css">
+      <link rel="stylesheet" type="text/css" href="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/style.css">
+
+  
+    <link rel="shortcut icon" href="https://docs.generic-mapping-tools.org/latest/_static/favicon.png">
+    
+    <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/jquery_002.js"></script>
+    <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/underscore.js"></script>
+    
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/jquery.js"></script>
+        <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/documentation_options.js"></script>
+        <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/doctools.js"></script>
+        <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/sphinx_highlight.js"></script>
+        <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/clipboard.min.js"></script>
+        <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/copybutton.js"></script>
+        <script>let toggleHintShow = 'Click to show example script';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/togglebutton.js"></script>
+        <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/design-tabs.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/theme.js"></script>
+    <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/searchtools.js"></script>
+    <script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/language_data.js"></script>
+    <link rel="index" title="Index" href="https://docs.generic-mapping-tools.org/latest/genindex.html">
+    <link rel="search" title="Search" href="#">
+
+
+  <!-- Point to the *latest* version switcher. This will allow the latest versions to appear on older documentation. -->
+  <script type="text/javascript" src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/version_switch.js"></script>
+
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+
+          
+          
+          <a href="https://docs.generic-mapping-tools.org/latest/index.html" class="icon icon-home">
+            GMT
+          </a>
+              <div class="version"><select><option value="latest" selected="selected">latest (6.6.0)</option><option value="dev">dev</option><option value="6.5">6.5</option><option value="6.4">6.4</option><option value="6.3">6.3</option><option value="6.2">6.2</option><option value="6.1">6.1</option><option value="6.0">6.0</option><option value="5.4">5.4</option><option value="4.5">4</option></select></div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" value="projection">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+    
+              <p class="caption" role="heading"><span class="caption-text">Getting started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/install.html">Installing GMT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/gallery.html">Illustration Gallery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/animations.html">Animation Gallery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/tutorial.html">Tutorials</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/modules.html">Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/reference.html">Technical Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/datasets.html">Datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/modules-classic.html">Modules (Classic Mode)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/changes.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/users-contrib-symbols.html">Users Symbol Contributions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/deprecated-defaults.html">Deprecated GMT Defaults Names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/switching.html">Switching between Different Versions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/migrating.html">Migrating from an Earlier Version</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Development</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/GenericMappingTools/.github/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/devdocs/contributing.html">Contributors Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/devdocs/maintenance.html">Maintainers Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/devdocs/team.html">Team Gallery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/devdocs/rst-cheatsheet.html">reStructuredText Cheatsheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/devdocs/debug.html">Debugging GMT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/devdocs/api.html">GMT C API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/devdocs/postscriptlight.html">PostScriptLight C API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://docs.generic-mapping-tools.org/latest/devdocs/devdocs.html">GMT Enhancement Proposals</a></li>
+</ul>
+
+
+    
+        <p class="caption">
+            <span class="caption-text">Getting help</span>
+        </p>
+        <ul>
+            
+                <li class="toctree-l1"><a href="https://www.generic-mapping-tools.org/"><i class="fa fa-home fa-fw"></i> GMT Homepage</a></li>
+            
+                <li class="toctree-l1"><a href="https://forum.generic-mapping-tools.org/"><i class="fa fa-comment fa-fw"></i> GMT Community Forum</a></li>
+            
+                <li class="toctree-l1"><a href="https://github.com/GenericMappingTools/gmt/blob/master/LICENSE.TXT"><i class="fa fa-book fa-fw"></i> License</a></li>
+            
+                <li class="toctree-l1"><a href="https://github.com/GenericMappingTools/gmt"><i class="fa fa-github fa-fw"></i> Source Code</a></li>
+            
+                <li class="toctree-l1"><a href="https://docs.generic-mapping-tools.org/6.6/gmt-docs-6.6.zip"><i class="fa fa-download fa-fw"></i> Documentation HTML zip</a></li>
+            
+        </ul>
+    
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="https://docs.generic-mapping-tools.org/latest/index.html">GMT</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="https://docs.generic-mapping-tools.org/latest/index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Search</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <noscript>
+  <div id="fallback" class="admonition warning">
+    <p class="last">
+      Please activate JavaScript to enable the search functionality.
+    </p>
+  </div>
+  </noscript>
+
+  
+  <div id="search-results">
+  
+  <h2>Search Results</h2><p class="search-summary">Search finished, found 252 page(s) matching the search query.</p><ul class="search"><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex26.html" data-score="15">(26) General vertical perspective <span class="highlighted">projection</span></a><p class="context">(26) General vertical perspective <span class="highlighted">projection</span>
+Next, we present a recent extension to the -JG <span class="highlighted">projection</span> option
+which allows the user to specify a particular altitude (this was always
+at infinity before), as well...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference/ogrgmt-format.html" data-score="15"><span class="section-number">20. </span>The GMT Vector Data Format for OGR Compatibility</a><p class="context">...e GMT polygon file header using this specification (in format 1.0) is
+
+# @VGMT1.0 @GPOLYGON
+
+
+
+
+
+20.3.3. Domain and map <span class="highlighted">projection</span>s
+The new format will also support region and <span class="highlighted">projection</span> information. The
+region will be stored in GMT -R form...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference/options.html" data-score="15"><span class="section-number">4. </span>Standardized command line options</a><p class="context">...options
+Most of the programs take many of the same arguments such as those related
+to setting the data region, the map <span class="highlighted">projection</span>, etc. The switches in
+Table switches have the same meaning in all the programs (although
+some programs may no...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference/map-projections.html" data-score="15"><span class="section-number">6. </span>GMT Map <span class="highlighted">Projection</span>s</a><p class="context">6. GMT Map <span class="highlighted">Projection</span>s
+GMT implements more than 30 different <span class="highlighted">projection</span>s. They all project the input coordinates longitude and latitude to
+positions on a map. In general, \(x' = f(x,y,z)\) and \(y' = g(x,y,z)\)...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/basemap.html" data-score="15">basemap</a><p class="context">...escription
+Creates a basic or fancy basemap (frame, with no actual map inside) with axes, fill, and titles. Several map <span class="highlighted">projection</span>s are available, and the user may
+specify separate tick-mark intervals for boundary annotation, ticking, and (...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmt.conf.html" data-score="15">gmt.conf</a><p class="context">...arameters
+FONT_
+
+FORMAT Parameters
+FORMAT_
+
+GMT Miscellaneous Parameters
+GMT_
+
+I/O Parameters
+IO_
+
+MAP Parameters
+MAP_
+
+<span class="highlighted">Projection</span> Parameters
+PROJ_
+
+PostScript Parameters
+PS_
+
+Calendar/Time Parameters
+TIME_
+
+
+
+
+COLOR Parameters
+
+COLOR_BACKG...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/modules.html" data-score="15">Modules</a><p class="context">...grdfilter
+grdgdal
+grdgradient
+grdhisteq
+grdimage
+grdinfo
+grdinterpolate
+grdlandmask
+grdmask
+grdmath
+grdmix
+grdpaste
+grdproject
+grdsample
+grdselect
+
+
+grdtrack
+grdtrend
+grdvector
+grdview
+grdvolume
+greenspline
+histogram
+image
+info
+inset
+kml2g...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/modules-classic.html" data-score="15">Modules (Classic Mode)</a><p class="context">...rdfilter
+grdgdal
+grdgradient
+grdhisteq
+grdimage
+grdinfo
+grdinterpolate
+grdlandmask
+grdmask
+grdmath
+
+
+grdmix
+grdpaste
+grdproject
+grdsample
+grdselect
+grdtrack
+grdtrend
+grdvector
+grdview
+grdvolume
+greenspline
+kml2gmt
+makecpt
+mapproject
+nearnei...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/project.html" data-score="15">project</a><p class="context">project
+Project data onto lines or great circles, or generate tracks
+
+Synopsis
+gmt project [ table ]
+-Ccx/cy
+[ -Aazimuth ]
+[ -Ebx/by ]
+[ -Fflags ]
+[ -Gdist[unit][/colat][+c][+h][+n] ]
+[ -L[w|lmin/lmax] ]
+[ -N ]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/psbasemap.html" data-score="15">psbasemap</a><p class="context">...escription
+Creates a basic or fancy basemap (frame, with no actual map inside) with axes, fill, and titles. Several map <span class="highlighted">projection</span>s are available, and the user may
+specify separate tick-mark intervals for boundary annotation, ticking, and (...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/julia/session-1.html" data-score="15">Session One</a><p class="context">...introduce the all-important common options frame, proj, and region and to familiarize ourselves
+with a few selected GMT <span class="highlighted">projection</span>s. The GMT modules we will utilize are basemap and
+basemap.
+Please consult their manual pages for reference....</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/bash/session-1.html" data-score="15">Session One</a><p class="context">...order to introduce the
+all-important common options -B, -J, and -R and to familiarize
+ourselves with a few selected GMT <span class="highlighted">projection</span>s.  The GMT modules
+we will utilize are basemap and coast.  Please
+consult their manual pages for reference....</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference/map-projections.html#conic-projections" data-score="9"><span class="section-number">6. </span>GMT Map <span class="highlighted">Projection</span>s &gt; Conic <span class="highlighted">projection</span>s</a><p class="context">6.1. Conic <span class="highlighted">projection</span>s
+
+6.1.1. Albers conic equal-area <span class="highlighted">projection</span> (-Jb -JB)
+Syntax
+
+-Jb|Blon0/lat0/lat1/lat2/scale|width
+
+Parameters
+
+The longitude (lon0) and latitude (lat0) of the <span class="highlighted">projection</span> center.
+The two standard parallels (lat1 and l...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/julia/session-1.html#albers-projection" data-score="9">Session One &gt; Albers <span class="highlighted">projection</span></a><p class="context">Albers <span class="highlighted">projection</span>
+The Albers <span class="highlighted">projection</span> (poj=:albers) is an equal-area conical <span class="highlighted">projection</span>;
+its conformal cousin is the Lambert conic <span class="highlighted">projection</span> (proj=:lambert).
+Their usages are almost identical so we will only use the Albers here.
+The gen...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/bash/session-1.html#albers-projection" data-score="9">Session One &gt; Albers <span class="highlighted">projection</span></a><p class="context">Albers <span class="highlighted">projection</span>
+The Albers <span class="highlighted">projection</span> (-JB) is an equal-area conical <span class="highlighted">projection</span>;
+its conformal cousin is the Lambert conic <span class="highlighted">projection</span> (-JL).
+Their usages are almost identical so we will only use the Albers here.
+The general syntax is
+
+-J...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/julia/session-1.html#linear-projection" data-score="9">Session One &gt; Linear <span class="highlighted">projection</span></a><p class="context">Linear <span class="highlighted">projection</span>
+We start by making the basemap frame for a linear x-y plot. We want it to go from 10 to 70 in x and from
+-3 to 8 in y, with automatic annotation intervals. Finally, we let the canvas be painted light red and have
+dimensio...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/bash/session-1.html#linear-projection" data-score="9">Session One &gt; Linear <span class="highlighted">projection</span></a><p class="context">Linear <span class="highlighted">projection</span>
+We start by making the basemap frame for a linear x-y plot.
+We want it to go from 10 to 70 in x and
+from -3 to 8 in y, with automatic annotation intervals.  Finally,
+we let the canvas be painted light red and have dimensi...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference/map-projections.html" data-score="8"><span class="section-number">6. </span>GMT Map <span class="highlighted">Projection</span>s &gt; GMT Map <span class="highlighted">Projection</span>s</a><p class="context">6. GMT Map <span class="highlighted">Projection</span>s
+GMT implements more than 30 different <span class="highlighted">projection</span>s. They all project the input coordinates longitude and latitude to
+positions on a map. In general, \(x' = f(x,y,z)\) and \(y' = g(x,y,z)\)...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/julia/session-1.html#mercator-projection" data-score="8">Session One &gt; Mercator <span class="highlighted">projection</span></a><p class="context">Mercator <span class="highlighted">projection</span>
+Despite the problems of extreme horizontal exaggeration at high latitudes, the conformal Mercator <span class="highlighted">projection</span>
+(proj=:merc) remains the stalwart of location maps used by scientists. It is one of several cylindrical
+projec...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/bash/session-1.html#mercator-projection" data-score="8">Session One &gt; Mercator <span class="highlighted">projection</span></a><p class="context">Mercator <span class="highlighted">projection</span>
+Despite the problems of extreme horizontal exaggeration at high
+latitudes, the conformal Mercator <span class="highlighted">projection</span> (-JM) remains
+the stalwart of location maps used by scientists.  It is one
+of several cylindrical <span class="highlighted">projection</span>s...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/animations/anim01.html" data-score="5">(1) Animation of the sine function</a><p class="context">...all the steps in our script. In
+this case we did some trial-and-error to determine the exact values to
+use for the map <span class="highlighted">projection</span>, the region, the spacing around the frame,
+etc. so that the final result gave a reasonable layout. Do this pl...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex01.html" data-score="5">(1) Contour maps</a><p class="context">...(1) Contour maps
+We want to create two contour maps of the low order geoid using the
+Hammer equal area <span class="highlighted">projection</span>. Our gridded data file is called osu91a1f_16.nc and
+contains a global 1 by 1 gridded geoid (we will see how t...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex10.html" data-score="5">(10) A geographical bar graph plot</a><p class="context">...nd column
+centered on each continent with a height that is proportional to the
+languages used. We choose a plain
+linear <span class="highlighted">projection</span> for the basemap and add the multi-band columns and text on top.
+The different bands in the columns indicate h...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/animations/anim14.html" data-score="5">(14) Animating earthquake focal mechanisms</a><p class="context">...n be downloaded and rearranged to a gmt format with the followings commands:
+# URL="https://www.ldeo.columbia.edu/~gcmt/projects/CMT/catalog/jan76_dec17.ndk"
+# gmt which $URL -G 
+# gawk '/^PDE/ {Date=$2; Time=$3; Lat=$4; Long=$5; Depth=$6;...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex14.html" data-score="5">(14) Gridding of data and trend surfaces</a><p class="context">...wing simple gridding, contouring, and resampling along tracks
+# GMT modules:	blockmean, grdcontour, grdtrack, grdtrend, project, text,
+# GMT modules:	set, plot, surface, subplot
+# Unix progs:	rm
+#
+gmt begin ex14
+	gmt set MAP_GRID_PEN_PRIMAR...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex18.html" data-score="5">(18) Volumes and Spatial Selections</a><p class="context">...:	grdmath, grdvolume, makecpt, coast, colorbar, text, plot
+# Unix progs:	echo, rm
+#
+gmt begin ex18
+	# Use spherical gmt <span class="highlighted">projection</span> since SS data define on sphere
+	gmt set PROJ_ELLIPSOID Sphere FORMAT_FLOAT_OUT %g
+	# Define location of Pratt...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex02.html" data-score="5">(2) Image presentations</a><p class="context">...d due to
+the oblique trend of the island chain we prefer to rotate our
+geographical data sets using an oblique Mercator <span class="highlighted">projection</span> defined by
+the hotspot pole at (68W, 69N). We choose the point (190, 25.5) to be
+the center of our <span class="highlighted">projection</span>...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex23.html" data-score="5">(23) All great-circle paths lead to Rome</a><p class="context">...e contours.
+The script produces the plot in Figure; note
+how interesting the path to Seattle appears in this particular
+<span class="highlighted">projection</span> (Hammer). We also note that Rome’s antipode lies somewhere
+near the Chatham plateau (antipodes will be revisi...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex24.html" data-score="5">(24) Data selection based on geospatial criteria</a><p class="context">...Figure. Note
+that the horizontal distance from the dateline seems to increase as we
+go south; however that is just the projected distance (Mercator
+distortion) and not the actual distance which remains constant at 1000 km.
+#!/usr/bin/env b...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex27.html" data-score="5">(27) Plotting Sandwell/Smith Mercator img grids</a><p class="context">...(27) Plotting Sandwell/Smith Mercator img grids
+Next, we show how to plot a data grid that is distributed in projected
+form. The gravity and predicted bathymetry grids produced by David
+Sandwell and Walter H. F. Smith are not geo...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex28.html" data-score="5">(28) Mixing UTM and geographic data sets</a><p class="context">...h overlying
+geographic data, such as coastlines or data points. The mistake many
+GMT rookies make is to specify the UTM <span class="highlighted">projection</span> with their UTM data.
+However, that data have already been projected and is now in linear
+meters. The only sen...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex03.html" data-score="5">(3) Spectral estimation and xy-plots</a><p class="context">...(3) Spectral estimation and xy-plots
+In this example we will show how to use the GMT programs
+fitcircle, project,
+sample1d, spectrum1d,
+and plot. Suppose you have (lon, lat,
+gravity) along a satellite track in a file called s...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex30.html" data-score="5">(30) Trigonometric functions plotted in graph mode</a><p class="context">...de
+Next, we continue with a simple mathematical illustration of sine and
+cosine, highlighting the graph mode for linear <span class="highlighted">projection</span>s and the new
+curved vectors for angles.
+The script simply draws a graph basemap, computes sine and cosine and...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/animations/anim04.html" data-score="5">(4) Flying from NY to Miami at night</a><p class="context">...in a great circle from New York to Miami at an altitude of 160
+km during the night. We use the general perspective view <span class="highlighted">projection</span> with
+grdimage and use
+project to create a great circle path
+between the two cities, sampled every 1 km. The m...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex42.html" data-score="5">(42) Antarctica and stereographic data</a><p class="context">...data
+In this example we demonstrate how one can use combine Cartesian data for
+Antarctica (here the BEDMAP data already projected via a stereographic <span class="highlighted">projection</span>)
+with geographic data, all using the same map scale. It also shows how one woul...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex51.html" data-score="5">(51) OpenStreetMap coastlines in GMT</a><p class="context">...(51) OpenStreetMap coastlines in GMT
+This example shows how to use coastlines derived from the OpenStreetMap (OSM)
+project in GMT. When working with the high
+resolution SRTM Datasets provided by GMT, the GSHHG coastlines might
+not be p...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery/ex09.html" data-score="5">(9) Time-series along tracks</a><p class="context">...the sea-surface slopes along 42 descending Geosat
+tracks in the Eltanin and Udintsev fracture zone region in a Mercator <span class="highlighted">projection</span>.
+
+
+
+Time-series as wiggles along a track.</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference/colorspace.html" data-score="5"><span class="section-number">14. </span>Color Systems and Artificial Illumination</a><p class="context">...leading to under-color
+removal of the remaining three pigments.
+
+
+
+Here is the source script for the figure above:
+gmt project -N -Z2.6+e -G0.02 -C-0.75/1.3 &gt; R.d
+gmt project -N -Z2.6+e -G0.02 -C0.75/1.3  &gt; G.d
+gmt project -N -Z2.6+e -G0.0...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference/custom-symbols.html" data-score="5"><span class="section-number">18. </span>Custom Plot Symbols</a><p class="context">...fied as azimuth will first be converted to map angle
+(positive counter-clockwise from horizontal) given the current
+map <span class="highlighted">projection</span> (or simply via 90-azimuth for Cartesian plots).
+We ensure the angles fall in the 0-360 range and any macro te...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference/contour-annotations.html" data-score="5"><span class="section-number">19. </span>Annotation of Contours and “Quoted Lines”</a><p class="context">...orated. The codes are:
+
+d:Full syntax is
+ddist[c|i|p][/frac].
+Place labels according to the distance measured along the projected
+line on the map. Append the unit you want to measure distances in
+[Default is taken from PROJ_LENGTH_UNIT]. St...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference/introduction.html" data-score="5"><span class="section-number">2. </span>Introduction</a><p class="context">...m the many suggestions contributed by users of the
+earlier versions, and now includes more than 100 tools, more than 30
+<span class="highlighted">projection</span>s, and many other new, more flexible features. GMT provides
+scientists with a variety of tools for data manipu...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference/features.html" data-score="5"><span class="section-number">3. </span>General Features</a><p class="context">...and-line syntax covering
+so many options, many of which are rarely or never changed (such as
+the ellipsoid used for map <span class="highlighted">projection</span>s).
+It is convenient to keep separate gmt.conf files for specific projects, so
+that one may achieve a special...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference/coordinate-transformations.html" data-score="5"><span class="section-number">5. </span>GMT Coordinate Transformations</a><p class="context">...tes and convert them to positions on a plot. This is achieved by selecting one of
+several coordinate transformations or <span class="highlighted">projection</span>s. We distinguish between three sets of such conversions:
+
+Cartesian coordinate transformations
+Polar coordina...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/spotter/backtracker.html" data-score="5">backtracker</a><p class="context">...technical reference).
+
+
+
+-W[a|t]Rotates the given input (lon, lat, time) and calculates the confidence
+ellipse for the projected point. The input point must have a time
+coordinate that exactly matches a particular total reconstruction
+rota...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/windbarbs/barb.html" data-score="5">barb</a><p class="context">...th -G. If -G is set, -W will control
+whether the outline is drawn or not.
+
+
+Required Arguments
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Jz|ZparametersSet z-axis scali...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/batch.html" data-score="5">batch</a><p class="context">...batch
+Automate batch job processing
+
+Synopsis
+gmt batch mainscript
+-Nprefix
+-Tnjobs|min/max/inc[+n]|timefile[+pwidth][+sfirst][+w[str]|W]
+[ -D ]
+[ -Ftemplate ]
+[ -Iincludefile ]
+[ -M[job] ]
+[ -Q[s] ]
+[ -Sbprefl</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/begin.html" data-score="5">begin</a><p class="context">...begin
+Initiate a new GMT modern mode session
+
+Synopsis
+gmt begin [prefix] [formats] [options]
+[ -C ]
+[ -V[level] ]
+Note: No space is allowed between the option flag and the associated arguments.
+
+
+Description
+T</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtbinstats.html" data-score="5">binstats</a><p class="context">...for all nodes in a 5x5 arc degree grid,
+using the remote file @capitals.gmt, and plot the resulting grid using default <span class="highlighted">projection</span> and colors, try:
+gmt begin map
+  gmt binstats @capitals.gmt -a2=population -Rg -I5 -Cz -Gpop.nc -S1000k
+  gmt...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/blockmean.html" data-score="5">blockmean</a><p class="context">...blockmean
+Block average (x,y,z) data tables by mean estimation
+
+Synopsis
+gmt blockmean [ table ]
+-Iincrement
+-Rregion
+[ -Afields ]
+[ -C ]
+[ -E[+p|P] ]
+[ -G[grdfile] ]
+[ -S[m|n|s|w] ]
+[ -V[level] ]
+[ -W[i|o][+s|</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/blockmedian.html" data-score="5">blockmedian</a><p class="context">...blockmedian
+Block average (x,y,z) data tables by median estimation
+
+Synopsis
+gmt blockmedian [ table ]
+-Iincrement
+-Rregion
+[ -Afields ]
+[ -C ]
+[ -E[b|r|s[+l|h]] ]
+[ -G[grdfile] ]
+[ -Q ]
+[ -Tquantile ]
+[ -V[lev</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/blockmode.html" data-score="5">blockmode</a><p class="context">...blockmode
+Block average (x,y,z) data tables by mode estimation
+
+Synopsis
+gmt blockmode [ table ]
+-Iincrement
+-Rregion
+[ -Afields ]
+[ -C ]
+[ -D[width][+c][+a|l|h ]]
+[ -E[r|s[+l|h]] ]
+[ -G[grdfile] ]
+[ -Q ]
+[ -V[</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/changes.html" data-score="5">Changelog</a><p class="context">...makecpt: Add mechanism for passing -Tlist via a file (#7569)
+makecpt, grd2cpt: Let -Fx write hex CPT tables (#7019)
+mapproject: Add -Wm|M to get the rectangular region in projected coordinates (#7611)
+mapproject: Determine bounding box for...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/clear.html" data-score="5">clear</a><p class="context">...clear
+Delete current default settings, or the cache, data, geography or sessions directories
+
+Synopsis
+gmt clear all | cache | data[=planet|name] | geography[=name] | sessions | settings
+[ -N ]
+[ -V[level] ]
+No</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/clip.html" data-score="5">clip</a><p class="context">...iven
+then we read from standard input.  
+
+
+
+-C[n]Mark end of existing clip path(s). No input file will be processed.
+No <span class="highlighted">projection</span> information is needed unless -B has been selected
+as well. With no arguments we terminate all active clipping...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/coast.html" data-score="5">coast</a><p class="context">...itten).
+Likewise, if the water-areas are painted and no land fill is set then
+the land-areas will be transparent. A map <span class="highlighted">projection</span> must be supplied.
+At least one of options -C, -G, -S, -E, -I, -N, -Q and -W must be specified.
+
+
+Required Arg...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/colorbar.html" data-score="5">colorbar</a><p class="context">...j
+ - Append code to j or  Jcode for setting the refpoint via a 2-char 
+justification code that refers to the (invisible) projected map bounding
+ box. Requires both -R and -J to be set. Upper case means justify on the
+ outside.
+n - Append xn/yn...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/std-opts.html" data-score="5">Common Options</a><p class="context">...d Line Options
+
+
+
+
+
+
+Option
+Description
+
+
+
+-Binformation
+Specify map frame and axes parameters
+
+-Jparameters
+Select map <span class="highlighted">projection</span>
+
+-Rwest/east/south/north[/zmin/zmax][+r][+uunit]
+Specify region of interest
+
+-U[label][+c][+jjust][+odx/dy][+...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtconnect.html" data-score="5">connect</a><p class="context">...ill eventually connect
+all lines that satisfy the criteria given in -T.
+
+
+See Also
+gmt,
+gmt.conf,
+simplify,
+spatial,
+mapproject</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/contour.html" data-score="5">contour</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin/xmax/ymin/ymax[+r][+uuni...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/devdocs/contributing.html" data-score="5">Contributors Guide</a><p class="context">Contributors Guide
+This is a community driven project and everyone is welcome to contribute. The project is hosted at the
+GMT GitHub repository.
+The goal is to maintain a diverse community that’s pleasant for e...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtconvert.html" data-score="5">convert</a><p class="context">...convert
+Convert, paste, or extract columns from data tables
+
+Synopsis
+gmt convert [ table ]
+[ -A ]
+[ -C[+lmin][+umax][+i]]
+[ -D[template[+oorig]] ]
+[ -E[f|l|m|Mstride] ]
+[ -F[c|n|p|v][a|r|s|t|refpoint] ]
+[ -I[t</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/seis/coupe.html" data-score="5">coupe</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+-Rwest/east/south/north[/zmin/zm...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/devdocs/debug.html" data-score="5">Debugging for Developers</a><p class="context">...code ..
+xcodebuild
+
+
+
+After this step you can launch the Xcode application and then use the File-&gt;Open menu to
+open the project file xbuild/GMT.xcodeproj.  After it opens it may looks something like
+this (click on the figure to enlarge it):...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtdefaults.html" data-score="5">defaults</a><p class="context">...defaults
+List current GMT default settings
+
+Synopsis
+gmt defaults [ -D[s|u] ]
+Note: No space is allowed between the option flag and the associated arguments.
+
+
+Description
+defaults lists all the GMT parameter d</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/dimfilter.html" data-score="5">dimfilter</a><p class="context">...d only be used on Cartesian
+grids (or at very low latitudes) only. If you want to apply such spatial
+filters you should project your data to an equal-area <span class="highlighted">projection</span> and run
+dimfilter on the resulting Cartesian grid.
+
+
+Script Template
+The d...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/docs.html" data-score="5">docs</a><p class="context">...docs
+Show HTML documentation of specified module
+
+Synopsis
+gmt docs [ -Q ] [ -S ] [ -V[level] ] module-name [-option]
+Note: No space is allowed between the option flag and the associated arguments.
+
+
+Descriptio</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/geodesy/earthtide.html" data-score="5">earthtide</a><p class="context">...earthtide
+Compute grids or time-series of solid Earth tides
+
+Synopsis
+gmt earthtide
+-T[min/max/]inc[+i|n] |-Tfile|list
+-Goutgrid
+[ -Cx|e,y|n,z|v ]
+[ -Iincrement ]
+[ -Llon/lat ]
+[ -Rregion ]
+[ -S ]
+[ -V[level] ]</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/end.html" data-score="5">end</a><p class="context">...end
+Terminate GMT modern mode session and produce optional graphics
+
+Synopsis
+gmt end
+[ show ]
+[ -V[level] ]
+Note: No space is allowed between the option flag and the associated arguments.
+
+
+Description
+This en</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/events.html" data-score="5">events</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin/xmax/ymin/ymax[+r][+uuni...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/figure.html" data-score="5">figure</a><p class="context">...er available options control the verbosity.
+Each figure maintains its own history and settings, so
+memory of region and <span class="highlighted">projection</span> settings only apply on a per figure basis.
+
+
+Required Arguments
+
+prefixName stem used to construct the figure...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/filter1d.html" data-score="5">filter1d</a><p class="context">...filter1d
+Time domain filtering of 1-D data tables
+
+Synopsis
+gmt filter1d [ table ]
+-Ftypewidth[+h]
+[ -Dincrement ]
+[ -E ]
+[ -Llack_width ]
+[ -Nt_col ]
+[ -Qq_factor ]
+[ -Ssymmetry_factor ]
+[ -T[min/max/]inc[+a][</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/fitcircle.html" data-score="5">fitcircle</a><p class="context">...@sat_03.txt -L2 -Fm
+
+
+Suppose you have lon, lat, grav data along a twisty ship track in the file
+ship.xyg. You want to project this data onto a great circle and resample
+it in distance, in order to filter it or check its spectrum. Do the
+f...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/potential/gmtflexure.html" data-score="5">flexure</a><p class="context">...flexure
+Compute flexural deformation of 2-D loads, forces, and bending moments
+
+Synopsis
+gmt flexure -Drm/rl[/ri]/rw
+-ETe[k]|D|file
+-Qargs
+[ -A[l|r]bc[/args] ]
+[ -Cp|yvalue ]
+[ -Fforce ]
+[ -L ]
+[ -M[h][v] ]
+[ -</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/gsfml/fzanalyzer.html" data-score="5">fzanalyzer</a><p class="context">...ed arguments.
+
+
+Description
+fzanalyzer is a tool developed as part of the Global Seafloor Fabric
+and Magnetic Lineation Project [see GSFML for a full
+description of the project].  It reads processed fracture zone (FZ) traces and cross-profi...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/gsfml/fzblender.html" data-score="5">fzblender</a><p class="context">...ted arguments.
+
+
+Description
+fzblender is a tool developed as part of the Global Seafloor Fabric
+and Magnetic Lineation Project [see GSFML for a full
+description of the project].  It reads an analysis file produced by
+fzanalyzer and optiona...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/gsfml/fzinformer.html" data-score="5">fzinformer</a><p class="context">...arguments.
+
+
+Description
+fzinformer is a script developed as part of the Global Seafloor Fabric
+and Magnetic Lineation Project [see GSFML for a full
+description of the project].  It make plots of statistical information obtained
+by fzanaly...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/gsfml/fzmapper.html" data-score="5">fzmapper</a><p class="context">...guments.
+
+
+Description
+fzmapper is a Bash script developed as part of the Global Seafloor Fabric
+and Magnetic Lineation Project [see GSFML for a full
+description of the project].  It make a Mercator map of cross-profiles from the
+processed...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/gsfml/fzmodeler.html" data-score="5">fzmodeler</a><p class="context">...ed arguments.
+
+
+Description
+zmodeler is a script developed as part of the Global Seafloor Fabric
+and Magnetic Lineation Project [see GSFML for a full
+description of the project].  It builds a synthetic model cross-profile given
+the chosen m...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/gsfml/fzprofiler.html" data-score="5">fzprofiler</a><p class="context">...arguments.
+
+
+Description
+fzprofiler is a script developed as part of the Global Seafloor Fabric
+and Magnetic Lineation Project [see GSFML for a full
+description of the project].  It plots the cross-profiles and the information produced by...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtget.html" data-score="5">get</a><p class="context">...get
+Get individual GMT default settings or download data sets
+
+Synopsis
+gmt get
+[ PARAMETER1 PARAMETER2 PARAMETER3 … ]
+[ -Dselection ]
+[ -Gdefaultsfile ]
+[ -Iinc[m|s] ]
+[ -L ]
+[ -N ]
+[ -Q ]
+[ -V[level] ]
+Note:</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmt.html" data-score="5">gmt</a><p class="context">...tools under the GNU LGPL that allows you to
+manipulate x, y and x, y, z data sets (filtering, trend fitting, gridding,
+projecting, etc.) and produce illustrations ranging from
+simple x-y plots, via contour maps, to artificially illuminated...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/devdocs/api.html" data-score="5">GMT C API</a><p class="context">...GMT images
+GMT images are used to represent bit-mapped images typically obtained
+via the GDAL bridge. These can be reprojected internally, such as when
+used in grdimage. Since images and grids share the concept of a header,
+we use the sa...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmt2kml.html" data-score="5">gmt2kml</a><p class="context">...gmt2kml
+Convert GMT data table to Google Earth KML file
+
+Synopsis
+gmt 2kml [ table ]
+[ -Aa|g|s[alt|xscale] ]
+[ -Ccpt ]
+[ -Ddescriptfile ]
+[ -E[+e][+s] ]
+[ -Fe|l|p|s|t|w ]
+[ -G[color][+f|n] ]
+[ -Iicon ]
+[ -K ]
+[</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/seis/gmtisf.html" data-score="5">gmtisf</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtlogo-classic.html" data-score="5">gmtlogo</a><p class="context">...me [default is 4p/-4p] and shade sets the
+fill style to use for shading [default is gray50].
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin/xmax/ymin/ymax[+r][+uuni...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtswitch.html" data-score="5">gmtswitch</a><p class="context">...ider. Each path goes on separate lines and
+points to the top dir of each distribution, e.g.,
+/Users/pwessel/UH/RESEARCH/PROJECTS/GMTdev/gmt-4.5.18
+
+
+
+
+In your .bashrc or .[t]csrh or wherever you are maintaining your PATHor path variable, re...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/geodesy/gpsgridder.html" data-score="5">gpsgridder</a><p class="context">...gpsgridder
+Interpolate GPS velocities using Green’s functions for elastic deformation
+
+Synopsis
+gmt gpsgridder [ table ]
+-Goutgrid
+[ -C[[n|r|v]value[%]][+c][+ffile][+i][+n] ]
+[ -E[misfitfile][+rreportfile] ]
+[</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/potential/gravfft.html" data-score="5">gravfft</a><p class="context">...were you want to convert degrees into
+meters, select -fflags. If the data are close to either pole, you should
+consider projecting the grid file onto a rectangular coordinate system
+using grdproject.
+
+
+Handling of Grids with NaNs
+Since we c...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/potential/gmtgravmag3d.html" data-score="5">gravmag3d</a><p class="context">...gravmag3d
+Compute the gravity/magnetic anomaly of a 3-D body by the method of Okabe
+
+Synopsis
+gmt gravmag3d xyz_file -Tvert_file+v[+n]OR -Traw_file+r|+s[+n]OR -M+sbody,params
+[ -Cdensity ]
+[ -Ethickness ]
+[ -Fx</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/potential/gravprisms.html" data-score="5">gravprisms</a><p class="context">...gravprisms
+Compute geopotential anomalies over 3-D vertical prisms
+
+Synopsis
+gmt gravprisms [ table ]
+[ -C[+q][+wfile][+zdz] ]
+[ -Ddensity[+c] ]
+[ -Edx[/dy] ]
+[ -Ff|n[lat]|v ]
+[ -Goutfile ]
+[ -HH/rho_l/rho_h[+b</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grd2cpt.html" data-score="5">grd2cpt</a><p class="context">...o
+that the colors are histogram equalized. Thus if the grid(s) and the
+resulting CPT are used in grdimage with a linear <span class="highlighted">projection</span>,
+the colors will be uniformly distributed in area on the plot. Let z be
+the data values in the grid. Define C...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grd2kml.html" data-score="5">grd2kml</a><p class="context">...grd2kml
+Create KML image quadtree from single grid
+
+Synopsis
+gmt grd2kml ingrid
+-Nprefix
+[ -Aa|g|s[altitude] ]
+[ -C[section/]master|cpt|color\(_1\),color\(_2\)[,color\(_3\),…][+h[hinge]][+idz][+u|Uunit][+sfname</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grd2xyz.html" data-score="5">grd2xyz</a><p class="context">...Wikipedia.  Note: All coordinates are
+adjusted so that xmin = ymin = zmin = 0.  For other adjustments, see grdedit, grdproject and grdmath.
+Optionally, append a lower base other than the grid’s minimum value [Default]. Note: The grid must...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/windbarbs/grdbarb.html" data-score="5">grdbarb</a><p class="context">...ile Formats).
+
+compy.ncContains the y-components of the wind field. (See Grid File Formats).
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+
+Optional Arguments
+
+-AThe grid...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdblend.html" data-score="5">grdblend</a><p class="context">...grdblend
+Blend several partially overlapping grids into one larger grid
+
+Synopsis
+gmt grdblend
+[ blendfile | grid1 grid2 … ]
+-Goutgrid
+-Iincrement
+-Rregion
+[ -Cf|l|o|u[+n|p] ]
+[ -Q ]
+[ -Zscale ]
+[ -V[level] ]
+[</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdclip.html" data-score="5">grdclip</a><p class="context">...grdclip
+Clip the range of grid values
+
+Synopsis
+gmt grdclip ingrid -Goutgrid
+[ -Rregion ]
+[ -Sahigh/above[+e] ]
+[ -Sblow/below[+e] ]
+[ -Silow/high/between ]
+[ -Srold/new ]
+[ -V[level] ]
+[ --PAR=value ]
+Note: No</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdcontour-classic.html" data-score="5">grdcontour</a><p class="context">...data values by the given scale [Default is 1].
+
+
+Note: Any offset is added after any scaling.
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+
+Optional Arguments
+
+-A[n|conto...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdcontour.html" data-score="5">grdcontour</a><p class="context">...data values by the given scale [Default is 1].
+
+
+Note: Any offset is added after any scaling.
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+
+Optional Arguments
+
+-A[n|conto...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdconvert.html" data-score="5">grdconvert</a><p class="context">...grdconvert
+Convert between different grid formats
+
+Synopsis
+gmt grdconvert ingrid -Goutgrid
+[ -Cb|c|n|p ]
+[ -N ]
+[ -Rregion ]
+[ -V[level] ]
+[ -Z[+ooffset][+sfactor] ]
+[ -fflags ]
+[ --PAR=value ]
+Note: No space</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdcut.html" data-score="5">grdcut</a><p class="context">...ectly via a range check on the node values or via distances from
+a fixed point. Furthermore, you can use -J for oblique <span class="highlighted">projection</span>s to determine
+the corresponding rectangular -R setting that will give a sub-region that fully
+covers the obli...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdedit.html" data-score="5">grdedit</a><p class="context">...L -co options using +c. See
+the “Writing grids and images” cookbook section
+for more details.
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. Use the -J syntax to save the georeferencing info as CF-1 compliant
+metadata in netCDF grids. This metadata...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdfft.html" data-score="5">grdfft</a><p class="context">...were you want to convert degrees into
+meters, select -fflags. If the data are close to either pole, you should
+consider projecting the grid file onto a rectangular coordinate system
+using grdproject
+
+
+Data Detrending
+The default detrending...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdfill.html" data-score="5">grdfill</a><p class="context">...grdfill
+Interpolate across holes in a grid
+
+Synopsis
+gmt grdfill ingrid
+[ -Ac|g|n|s[arg] ]
+[ -Goutgrid ]
+[ -L[p] ]
+[ -Nvalue ]
+[ -Rregion ]
+[ -V[level] ]
+[ -fflags ]
+[ --PAR=value ]
+Note: No space is allowed be</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdfilter.html" data-score="5">grdfilter</a><p class="context">...grdfilter
+Filter a grid in the space (or time) domain
+
+Synopsis
+gmt grdfilter ingrid -Ddistance_flag
+-Fxwidth[/width2][+c|+h|+l|+qquantile|+u]
+-Goutgrid
+[ -Iincrement ]
+[ -Ni|p|r ]
+[ -Rregion ]
+[ -T ]
+[ -V[leve</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/potential/grdflexure.html" data-score="5">grdflexure</a><p class="context">...If your
+geographic region is close to either pole, you should consider using a Cartesian
+setup instead; you can always project it back to geographic using grdproject.
+
+
+Data Detrending
+The default detrending mode is to remove a best-fittin...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdgdal.html" data-score="5">grdgdal</a><p class="context">...grdgdal
+Execute GDAL raster programs from GMT
+
+Synopsis
+gmt grdgdal infile
+-Aprog[+mmethod+ccpt]
+-Goutfile
+[ -F“gd opts”]
+[ -M[+r[+w]]]
+[ -Rregion ]
+[ -V[level] ]
+[ -bibinary ]
+[ -dnodata[+ccol] ]
+[ -eregexp ]</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdgradient.html" data-score="5">grdgradient</a><p class="context">...grdgradient
+Compute directional gradients from a grid
+
+Synopsis
+gmt grdgradient ingrid
+-Goutgrid
+[ -Aazim[/azim2] ]
+[ -D[a][c][n][o] ]
+[ -E[m|s|p]azim/elev[+aambient][+ddiffuse][+pspecular][+sshine] ]
+[ -N[e|t]</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/potential/grdgravmag3d.html" data-score="5">grdgravmag3d</a><p class="context">...grdgravmag3d
+Computes the gravity effect of one (or two) grids by the method of Okabe
+
+Synopsis
+gmt grdgravmag3d grdfile_top [grdfile_bot] [ -Cdensity ]
+[ -Ethickness ]
+[ -Fxy_file ]
+[ -Goutgrid ]
+[ -Hargs ]
+[</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdhisteq.html" data-score="5">grdhisteq</a><p class="context">...grdhisteq
+Perform histogram equalization for a grid
+
+Synopsis
+gmt grdhisteq ingrid [ -Goutgrid ]
+[ -Cn_cells ] [ -D[file] ] [ -N[norm] ]
+[ -Q ]
+[ -Rregion ]
+[ -V[level] ]
+[ -hheaders ]
+[ --PAR=value ]
+Note: No</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdimage-classic.html" data-score="5">grdimage</a><p class="context">grdimage
+Project and plot grids or images
+
+Synopsis
+gmt grdimage grd_z | img | grd_r grd_g grd_b
+[ -Aout_img[=driver] ]
+[ -B[p|s]parameters ]
+[ -Ccpt ]
+[ -D[r] ]
+[ -E[i|dpi] ] -Jparameters
+[ -Gcolor[+b|+f] ]
+[...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdimage.html" data-score="5">grdimage</a><p class="context">grdimage
+Project and plot grids or images
+
+Synopsis
+gmt grdimage grid | image
+-Jparameters
+[ -Aout_img[=driver] ]
+[ -B[p|s]parameters ]
+[ -C[section/]master|cpt|color\(_1\),color\(_2\)[,color\(_3\),…][+h[hinge]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdinfo.html" data-score="5">grdinfo</a><p class="context">...grdinfo
+Extract information from 2-D grids or 3-D cubes
+
+Synopsis
+gmt grdinfo ingrid [ -C[n|t] ]
+[ -D[xoff[/yoff]][+i] ]
+[ -E[x|y][+l|L|u|U] ]
+[ -F ]
+[ -G ]
+[ -I[dx[/dy]|b|i|o|r] ]
+[ -L[0|1|2|p|a] ]
+[ -M[c|f] ]</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdinterpolate.html" data-score="5">grdinterpolate</a><p class="context">....  If you need
+a series of points defined by an origin and an end point or similar, you can make
+such a file first with project.  By default we simply sample the cube at
+each level.  Use -T to interpolate the series.  The grid level (e.g.,...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdlandmask.html" data-score="5">grdlandmask</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdmask.html" data-score="5">grdmask</a><p class="context">...eful not to interpolate it with standard methods,
+such as splines.  However, if you make a map of this grid using
+a map <span class="highlighted">projection</span> the grid will be reprojected to yield a rectangular
+matrix in the projected coordinates.  This interpolation...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdmath.html" data-score="5">grdmath</a><p class="context">...grdmath
+Reverse Polish Notation (RPN) calculator for grids (element by element)
+
+Synopsis
+gmt grdmath
+[ -Amin_area[/min_level/max_level][+a[g|i][s|S]][+l|r][+ppercent] ]
+[ -C[cpt] ]
+[ -Dresolution[+f] ]
+[ -Iinc</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdmix.html" data-score="5">grdmix</a><p class="context">...grdmix
+Blending and transforming grids and images
+
+Synopsis
+gmt grdmix
+raster1 [ raster2 [ raster3]]
+-Goutfile
+[ -Aalpha[+o] ]
+[ -C[section/]master|cpt|color\(_1\),color\(_2\)[,color\(_3\),…][+h[hinge]][+idz][+</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdpaste.html" data-score="5">grdpaste</a><p class="context">...grdpaste
+Join two grids along their common edge
+
+Synopsis
+gmt grdpaste file_a.nc file_b.nc
+-Goutfile.nc
+[ -S ]
+[ -V[level] ]
+[ -fflags ]
+[ --PAR=value ]
+Note: No space is allowed between the option flag and the</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/spotter/grdpmodeler.html" data-score="5">grdpmodeler</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdproject.html" data-score="5">grdproject</a><p class="context">grdproject
+Forward and inverse map transformation of grids
+
+Synopsis
+gmt grdproject ingrid -Goutgrid -Jparameters
+[ -C[dx/dy] ]
+[ -Dxinc[+e|n][/yinc[+e|n]] ]
+[ -Edpi ] [ -F[c|i|p|e|f|k|M|n|u] ] [ -I ] [ -Mc|i|p...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/potential/grdredpol.html" data-score="5">grdredpol</a><p class="context">...grdredpol
+Compute the Continuous Reduction To the Pole, AKA differential RTP
+
+Synopsis
+gmt grdredpol ingrid
+-Grtp_grd
+[ -Cdec/dip ]
+[ -Eiinc_grd ]
+[ -Eddec_grd ]
+[ -Fm/n ]
+[ -Mm|r ]
+[ -N ]
+[ -Wwin_width ]
+[ -V[</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/spotter/grdrotater.html" data-score="5">grdrotater</a><p class="context">...).
+
+
+
+-FpolygonfileSpecify a multisegment closed polygon file that describes the inside
+area of the grid that should be projected [Default projects entire grid].
+Note: If both -F and -R are given then -R takes precedence.
+
+
+
+-NDo Not output...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdsample.html" data-score="5">grdsample</a><p class="context">...grdsample
+Resample a grid onto a new lattice
+
+Synopsis
+gmt grdsample ingrid -Goutgrid
+[ -Iincrement ]
+[ -Rregion ]
+[ -T ]
+[ -V[level] ]
+[ -fflags ]
+[ -nflags ]
+[ -rreg ]
+[ -x[[-]n] ]
+[ --PAR=value ]
+Note: No sp</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/potential/grdseamount.html" data-score="5">grdseamount</a><p class="context">...grdseamount
+Create synthetic seamounts (Gaussian, parabolic, polynomial, cone or disc; circular or elliptical)
+
+Synopsis
+gmt grdseamount [ table ]
+-Goutgrid
+-Iincrement
+-Rregion
+[ -A[out/in][+sscale] ]
+[ -C[c|d</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdselect.html" data-score="5">grdselect</a><p class="context">...grdselect
+Make selections or determine common regions from 2-D grids, images or 3-D cubes
+
+Synopsis
+gmt grdselect source1 source2 …
+[ -Ai|u[+il|h|inc] ]
+[ -Cpointfile ]
+[ -Dinc ]
+[ -E[b] ]
+[ -Fpolygonfile[+i|o]</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/seis/grdshake.html" data-score="5">grdshake</a><p class="context">...-Rxmin/xmax/ymin/ymax. This is the standard way to specify Cartesian data domains and
+geographic regions when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear, where xmin, xmax,
+ymin, and ymax refer to the data limits.
+-R...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/spotter/grdspotter.html" data-score="5">grdspotter</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdtrack.html" data-score="5">grdtrack</a><p class="context">...grdtrack
+Sample one or more grids at specified locations
+
+Synopsis
+gmt grdtrack [ table ] -Ggrd1 [ -Ggrd2 … ]
+[ -A[f|p|m|r|R][+l] ]
+[ -Clength/ds[/spacing][+a|v][d|fvalue][l|r] ]
+[ -Ddfile ]
+[ -Eline ]
+[ -F[+b]</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdtrend.html" data-score="5">grdtrend</a><p class="context">...grdtrend
+Fit trend surface to grids and compute residuals
+
+Synopsis
+gmt grdtrend ingrid -Nn_model[+r][+x|y]
+[ -Ddiff.nc ]
+[ -Rregion ]
+[ -Ttrend.nc ]
+[ -V[level] ]
+[ -Wweight.nc ]
+[ --PAR=value ]
+Note: No space</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdvector-classic.html" data-score="5">grdvector</a><p class="context">...to be the magnitude (\(r\)),
+and grid2 (\(\theta\)), to be the azimuth (-Z) or direction (-A).
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+
+Optional Arguments
+
+-AThe grid...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdvector.html" data-score="5">grdvector</a><p class="context">...to be the magnitude (\(r\)),
+and grid2 (\(\theta\)), to be the azimuth (-Z) or direction (-A).
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+
+Optional Arguments
+
+-AThe grid...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdview-classic.html" data-score="5">grdview</a><p class="context">...fgrid2-D gridded data set to be imaged (the relief of the surface). (See
+Grid File Formats).
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+
+Optional Arguments
+
+-B[p|s]par...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdview.html" data-score="5">grdview</a><p class="context">...fgrid2-D gridded data set to be imaged (the relief of the surface). (See
+Grid File Formats).
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+
+Optional Arguments
+
+-B[p|s]par...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/grdvolume.html" data-score="5">grdvolume</a><p class="context">...grdvolume
+Calculate grid volume and area constrained by a contour
+
+Synopsis
+gmt grdvolume ingrid [ -Ccval or -Clow/high/delta or -Crlow/high or -Crcval]
+[ -D ]
+[ -Lbase ]
+[ -Rregion ]
+[ -S[unit] ]
+[ -T[c|h] ]
+[</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/seis/grdvs30.html" data-score="5">grdvs30</a><p class="context">...-Rxmin/xmax/ymin/ymax. This is the standard way to specify Cartesian data domains and
+geographic regions when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear, where xmin, xmax,
+ymin, and ymax refer to the data limits.
+-R...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/greenspline.html" data-score="5">greenspline</a><p class="context">...greenspline
+Interpolate using Green’s functions for splines in 1-3 dimensions
+
+Synopsis
+gmt greenspline [ table ]
+-Ggrdfile
+[ -Agradfile+f0|1|2|3|4|5 ]
+[ -C[[n|r|v]value[%]][+c][+ffile][+i][+n] ]
+[ -D[+xxname][</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/gshhg/gshhg.html" data-score="5">gshhg</a><p class="context">...solutions are free of
+self-intersections. Areas of all features have been computed using a
+Lambert azimuthal equal-area <span class="highlighted">projection</span> centered on the polygon
+centroids, using WGS-84 as the ellipsoid. GMT use the GSHHG as a
+starting point but t...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/histogram.html" data-score="5">histogram</a><p class="context">...histogram
+Calculate and plot histograms
+
+Synopsis
+gmt histogram [ table ]
+-T[min/max/]inc[+i|n] | -Tfile|list
+[ -A ]
+[ -B[p|s]parameters ]
+[ -Ccpt[+b] ]
+[ -D[+b][+ffont][+ooff][+r] ]
+[ -Ewidth[+ooffset] ]
+[ -F</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/spotter/hotspotter.html" data-score="5">hotspotter</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gallery.html" data-score="5">Illustration Gallery</a><p class="context">...(25) Global distribution of antipodes
+
+
+
+
+(25) Global distribution of antipodes
+
+
+
+
+
+(26) General vertical perspective <span class="highlighted">projection</span>
+
+
+
+
+(26) General vertical perspective <span class="highlighted">projection</span>
+
+
+
+
+
+(27) Plotting Sandwell/Smith Mercator img grids
+
+
+
+
+(27...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/image.html" data-score="5">image</a><p class="context">...j
+ - Append code to j or  Jcode for setting the refpoint via a 2-char 
+justification code that refers to the (invisible) projected map bounding
+ box. Requires both -R and -J to be set. Upper case means justify on the
+ outside.
+n - Append xn/yn...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/img/img2google.html" data-score="5">img2google</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/img/img2grd.html" data-score="5">img2grd</a><p class="context">...mat file, extracts a subset, and writes it
+to a grid file. The -M option dictates whether or not the Spherical
+Mercator <span class="highlighted">projection</span> of the img file is preserved or if a Geographic grid
+should be written by undoing the Mercator <span class="highlighted">projection</span>. If...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtinfo.html" data-score="5">info</a><p class="context">...info
+Get information about data tables
+
+Synopsis
+gmt info [ table ]
+[ -Aa|t|s ]
+[ -C ]
+[ -D[dx[/dy]] ]
+[ -EL|l|H|h[col] ]
+[ -F[i|d|t] ]
+[ -I[b|e|f|p|s]dx[/dy[/dz…][+e|r|Rincs] ]
+[ -L ]
+[ -Tdz[w|d|h|m|s][+ccol]</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/inset.html" data-score="5">inset</a><p class="context">...et is completed via the end directive, which reverts operations to the full
+canvas and restores the plot region and map <span class="highlighted">projection</span> that was in effect prior to the setup of the inset.
+
+Synopsis (begin mode)
+gmt inset begin
+-Dinset-box
+[ -C[s...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/kml2gmt.html" data-score="5">kml2gmt</a><p class="context">...kml2gmt
+Extract GMT table data from Google Earth KML files
+
+Synopsis
+gmt kml2gmt [ kmlfiles ]
+[ -E ]
+[ -Fs|l|p ]
+[ -V[level] ]
+[ -Z ]
+[ -bobinary ]
+[ -donodata[+ccol] ]
+[ -hheaders ]
+[ -:[i|o] ]
+[ --PAR=value ]</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/legend.html" data-score="5">legend</a><p class="context">...j
+ - Append code to j or  Jcode for setting the refpoint via a 2-char 
+justification code that refers to the (invisible) projected map bounding
+ box. Requires both -R and -J to be set. Upper case means justify on the
+ outside.
+n - Append xn/yn...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtlogo.html" data-score="5">logo</a><p class="context">...me [default is 4p/-4p] and shade sets the
+fill style to use for shading [default is gray50].
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin/xmax/ymin/ymax[+r][+uuni...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/devdocs/maintenance.html" data-score="5">Maintainers Guide</a><p class="context">Maintainers Guide
+This page contains instructions for project maintainers about making releases, creating source packages, managing CI, etc.
+If you want to make a contribution to the project, see the Contributi...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/makecpt.html" data-score="5">makecpt</a><p class="context">...makecpt
+Make GMT color palette tables
+
+Synopsis
+gmt makecpt
+[ -Atransparency[+a] ]
+[ -Ccpt ]
+[ -D[i|o] ]
+[ -E[nlevels] ]
+[ -F[R|c|g|h|r|x][+c[label]][+kkeys]]
+[ -Gzlo/zhi ]
+[ -H ]
+[ -I[c][z] ]
+[ -M ]
+[ -N ]
+[ -</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/mapproject.html" data-score="5">mapproject</a><p class="context">mapproject
+Forward and inverse map transformations, datum conversions and geodesy
+
+Synopsis
+gmt mapproject [ table ] -Jparameters
+-Rregion
+[ -Ab|f|o[lon0/lat0][+v] ]
+[ -C[dx/dy][+m] ]
+[ -Dc|i|p ]
+[ -E[datum] ]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/mask.html" data-score="5">mask</a><p class="context">...nd
+the registration have already been initialized; use -I and -R
+to override these values.
+
+
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. [Not mandatory with -D]. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtmath.html" data-score="5">math</a><p class="context">...math
+Reverse Polish Notation (RPN) calculator for data tables
+
+Synopsis
+gmt math [ -At_f(t)[+e][+r][+s|w] ]
+[ -Ccols ]
+[ -Eeigen ]
+[ -I ]
+[ -Nn_col[/t_col] ]
+[ -Q[c|i|p|n] ]
+[ -S[f|l] ]
+[ -T[min/max/inc[+b|i|l|</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/seis/meca.html" data-score="5">meca</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+-Rwest/east/south/north[/zmin/zm...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/mgd77/mgd77convert.html" data-score="5">mgd77convert</a><p class="context">...mgd77convert
+Convert MGD77 data to other formats
+
+Synopsis
+gmt mgd77convert GEODAS-ids -Fa|c|m|t
+-Ta|c|m|t[+f]
+[ -C ]
+[ -D ]
+[ -L[w][e][+l] ]
+[ -V[level] ]
+[ --PAR=value ]
+Note: No space is allowed between the</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/mgd77/mgd77header.html" data-score="5">mgd77header</a><p class="context">...ation_Month
+File_Creation_Day
+Source_Institution
+Country
+Platform_Name
+Platform_Type_Code
+Platform_Type
+Chief_Scientist
+Project_Cruise_Leg
+Funding
+Survey_Departure_Year
+Survey_Departure_Month
+Survey_Departure_Day
+Port_of_Departure
+Survey_Ar...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/mgd77/mgd77info.html" data-score="5">mgd77info</a><p class="context">...mgd77info
+Extract information about MGD77 files
+
+Synopsis
+gmt mgd77info GEODAS-ids
+[ -C[m|e] ]
+[ -E[m|e] ]
+[ -Ia|c|m|t ]
+[ -Mf[item]|r|e|h ]
+[ -L[v] ]
+[ -V[level] ]
+[ --PAR=value ]
+Note: No space is allowed bet</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/mgd77/mgd77list.html" data-score="5">mgd77list</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/mgd77/mgd77magref.html" data-score="5">mgd77magref</a><p class="context">...mgd77magref
+Evaluate the IGRF or CM4 magnetic field models
+
+Synopsis
+gmt mgd77magref [ inputfile ]
+[ -A[+aalt][+tdate][+y] ]
+[ -Ccm4file ]
+[ -DDstfile ]
+[ -Ef107file ]
+[ -Fflags ]
+[ -G ]
+[ -Sc|llow/high ]
+[ -V[</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/mgd77/mgd77manage.html" data-score="5">mgd77manage</a><p class="context">...mgd77manage
+Manage the content of MGD77+ files
+
+Synopsis
+gmt mgd77manage GEODAS-ids
+[ -Aa|c|d|D|e|E|g|i|n|t|Tfileinfo[+f]]
+[ -Dabbrev1,abbrev2,…) ]
+[ -Eempty ]
+[ -F ]
+[ -Iabbrev/name/unit/c/scale/offset/comment</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/mgd77/mgd77path.html" data-score="5">mgd77path</a><p class="context">...mgd77path
+Return paths to MGD77 cruises and directories
+
+Synopsis
+gmt mgd77path GEODAS-ids [ -A[c] ] [ -D ]
+[ -Ia|c|m|t ]
+[ -V[level] ]
+[ --PAR=value ]
+Note: No space is allowed between the option flag and the</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/mgd77/mgd77sniffer.html" data-score="5">mgd77sniffer</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/mgd77/mgd77track-classic.html" data-score="5">mgd77track</a><p class="context">...alue ]
+
+
+Description
+mgd77track reads NCEI MGD77 cruises and plots one or more ship tracks
+on a map using the specified <span class="highlighted">projection</span> [Wessel and Chandler, 2007].
+
+
+Required Arguments
+
+NGDC-idsCan be one or more of five kinds of specifiers:
+
+8...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/mgd77/mgd77track.html" data-score="5">mgd77track</a><p class="context">...alue ]
+
+
+Description
+mgd77track reads NCEI MGD77 cruises and plots one or more ship tracks
+on a map using the specified <span class="highlighted">projection</span> [Wessel and Chandler, 2007].
+
+
+Required Arguments
+
+NGDC-idsCan be one or more of five kinds of specifiers:
+
+8...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/gsfml/mlconverter.html" data-score="5">mlconverter</a><p class="context">...arguments.
+
+
+Description
+mlconverter is a module developed as part of the Global Seafloor Fabric
+and Magnetic Lineation Project [see GSFML for a full
+description of the project].  It reads a magnetic pick data file (or stdin)
+and converts c...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/movie.html" data-score="5">movie</a><p class="context">...sion.  You can use the
+regular -X and -Y options to set a logical origin for your intended plot [72p, 72p] and use your
+<span class="highlighted">projection</span> parameters (-J) to indicate the area selected for plotting (green).
+
+
+As you can see from -C, unless you spec...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/nearneighbor.html" data-score="5">nearneighbor</a><p class="context">...ile @ship_15.txt at 5x5 arc minutes using
+a search radius of 15 arch minutes, and plot the resulting grid using
+default <span class="highlighted">projection</span> and colors, try:
+gmt begin map
+  gmt nearneighbor @ship_15.txt -R245/255/20/30 -I5m -Ggrid.nc -S15m
+  gmt grd...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/spotter/originater.html" data-score="5">originater</a><p class="context">...l parameters named
+GPLATES_ROTATIONS that points to an alternate rotation file.
+
+
+See Also
+gmt,
+grdrotater,
+grdspotter,
+project,
+mapproject,
+backtracker,
+pmodeler,
+grdpmodeler,
+grdrotater,
+hotspotter
+
+
+References
+Wessel, P., 1999, “Hotspott...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/plot.html" data-score="5">plot</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin/xmax/ymin/ymax[+r][+uuni...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/plot3d.html" data-score="5">plot3d</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Jz|ZparametersSet z-axis scali...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/spotter/gmtpmodeler.html" data-score="5">pmodeler</a><p class="context">...pmodeler
+Evaluate a plate motion model at given locations
+
+Synopsis
+gmt pmodeler table
+-Erot_file|ID1-ID2|lon/lat/angle[+i]
+-Sflags
+[ -Fpolygonfile ]
+[ -Tage ]
+[ -V[level] ]
+[ -bbinary ]
+[ -dnodata[+ccol] ]
+[ -</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/seis/polar.html" data-score="5">polar</a><p class="context">...ut.  
+
+
+
+-Dlon/latCenters the focal sphere at given longitude and latitude point on the map.
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Msize[+mmag]Sets the size of t...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/spotter/polespotter.html" data-score="5">polespotter</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/windbarbs/psbarb.html" data-score="5">psbarb</a><p class="context">...th -G. If -G is set, -W will control
+whether the outline is drawn or not.
+
+
+Required Arguments
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Jz|ZparametersSet z-axis scali...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/psclip.html" data-score="5">psclip</a><p class="context">...iven
+then we read from standard input.  
+
+
+
+-C[n]Mark end of existing clip path(s). No input file will be processed.
+No <span class="highlighted">projection</span> information is needed unless -B has been selected
+as well. With no arguments we terminate all active clipping...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/pscoast.html" data-score="5">pscoast</a><p class="context">...itten).
+Likewise, if the water-areas are painted and no land fill is set then
+the land-areas will be transparent. A map <span class="highlighted">projection</span> must be supplied.
+At least one of options -C, -G, -S, -E, -I, -N, -Q and -W must be specified.
+
+
+Required Arg...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/pscontour.html" data-score="5">pscontour</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin/xmax/ymin/ymax[+r][+uuni...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/psconvert.html" data-score="5">psconvert</a><p class="context">...that for this option to work it is necessary that the postscript
+image must have been created with -JX or -Jx Cartesian <span class="highlighted">projection</span> of
+geographical coordinates. If not, a warning is issued but the KML
+file is created anyway. Several modifier...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/seis/pscoupe.html" data-score="5">pscoupe</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+-Rwest/east/south/north[/zmin/zm...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/psevents.html" data-score="5">psevents</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin/xmax/ymin/ymax[+r][+uuni...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/pshistogram.html" data-score="5">pshistogram</a><p class="context">...pshistogram
+Calculate and plot histograms
+
+Synopsis
+gmt pshistogram [ table ]
+-Jx|Xparameters
+-T[min/max/]inc[+i|n] | -Tfile|list
+[ -A ]
+[ -B[p|s]parameters ]
+[ -Ccpt[+b] ]
+[ -D[+b][+ffont][+ooff][+r] ]
+[ -Ewid</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/psimage.html" data-score="5">psimage</a><p class="context">...j
+ - Append code to j or  Jcode for setting the refpoint via a 2-char 
+justification code that refers to the (invisible) projected map bounding
+ box. Requires both -R and -J to be set. Upper case means justify on the
+ outside.
+n - Append xn/yn...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/pslegend.html" data-score="5">pslegend</a><p class="context">...j
+ - Append code to j or  Jcode for setting the refpoint via a 2-char 
+justification code that refers to the (invisible) projected map bounding
+ box. Requires both -R and -J to be set. Upper case means justify on the
+ outside.
+n - Append xn/yn...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/psmask.html" data-score="5">psmask</a><p class="context">...nd
+the registration have already been initialized; use -I and -R
+to override these values.
+
+
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. [Not mandatory with -D]. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/seis/psmeca.html" data-score="5">psmeca</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+-Rwest/east/south/north[/zmin/zm...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/seis/pspolar.html" data-score="5">pspolar</a><p class="context">...ut.  
+
+
+
+-Dlon/latCenters the focal sphere at given longitude and latitude point on the map.
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Msize[+mmag]Sets the size of t...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/psrose.html" data-score="5">psrose</a><p class="context">...use -o
+to select a subset from this record.
+
+
+
+-JXdiameterSets the diameter of the rose diagram.  Only this form of the <span class="highlighted">projection</span> machinery
+is supported for this module.  If not given, then we default to a diameter of 7.5 cm.
+
+
+
+-L[wlabel,...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/seis/pssac.html" data-score="5">pssac</a><p class="context">...line options.
+pen, if given, will override the pen from -W option for current SAC file only.
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+-Rwest/east/south/north[/zmin/zm...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/psscale.html" data-score="5">psscale</a><p class="context">...j
+ - Append code to j or  Jcode for setting the refpoint via a 2-char 
+justification code that refers to the (invisible) projected map bounding
+ box. Requires both -R and -J to be set. Upper case means justify on the
+ outside.
+n - Append xn/yn...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/segy/pssegy.html" data-score="5">pssegy</a><p class="context">...der of the traces in the file is
+not significant). Standard GMT geometry routines are used so that in
+principle any map <span class="highlighted">projection</span> may be used, however it is likely that the
+geographic <span class="highlighted">projection</span>s will lead to unexpected results. Beware als...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/segy/pssegyz.html" data-score="5">pssegyz</a><p class="context">...der of the traces in the file is
+not significant). Standard GMT geometry routines are used so that in
+principle any map <span class="highlighted">projection</span> may be used, however it is likely that the
+geographic <span class="highlighted">projection</span>s will lead to unexpected results. Beware tha...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/pssolar.html" data-score="5">pssolar</a><p class="context">...from UTC.
+Negative offsets look like −03:00 or −03. Positive offsets look like 02:00 or 02.
+
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-MWrite terminator(s) as a mult...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/psternary.html" data-score="5">psternary</a><p class="context">...all the
+segment headers and let any values thus found over-ride the command line settings.
+
+
+
+-JX[-]widthThe only valid <span class="highlighted">projection</span> is linear plot with specified ternary width.
+Use a negative width to indicate that positive axes directions b...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/pstext.html" data-score="5">pstext</a><p class="context">...[i|o] ]
+[ --PAR=value ]
+
+
+Description
+text plots text strings of variable size, font type, and
+orientation. Various map <span class="highlighted">projection</span>s are provided, with the option to
+draw and annotate the map boundaries.
+Greek characters, subscript, superscr...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/geodesy/psvelo.html" data-score="5">psvelo</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+-Rwest/east/south/north[/zmin/zm...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/pswiggle.html" data-score="5">pswiggle</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin/xmax/ymin/ymax[+r][+uuni...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/psxy.html" data-score="5">psxy</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin/xmax/ymin/ymax[+r][+uuni...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/psxyz.html" data-score="5">psxyz</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Jz|ZparametersSet z-axis scali...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtregress.html" data-score="5">regress</a><p class="context">...regress
+Linear regression of 1-D data sets
+
+Synopsis
+gmt regress [ table ] [ -A[min/max/inc][+f[n|p]] ]
+[ -Clevel ]
+[ -Ex|y|o|r ]
+[ -Fflags ]
+[ -N1|2|r|w ]
+[ -S[r] ]
+[ -T[min/max/]inc[+i|n] |-Tfile|list ]
+[ -V[</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/datasets/remote-data.html" data-score="5">Remote Datasets</a><p class="context">...d in the sections
+below describing each of the available datasets.
+When used in plots (i.e., both when a region and map <span class="highlighted">projection</span> is selected to make an image) the data
+resolution is optional. If it is not given then we determine a dataset...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/rose.html" data-score="5">rose</a><p class="context">...use -o
+to select a subset from this record.
+
+
+
+-JXdiameterSets the diameter of the rose diagram.  Only this form of the <span class="highlighted">projection</span> machinery
+is supported for this module.  If not given, then we default to a diameter of 7.5 cm.
+
+
+
+-L[wlabel,...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/spotter/rotconverter.html" data-score="5">rotconverter</a><p class="context">...rotconverter
+Manipulate total reconstruction and stage rotations
+
+Synopsis
+gmt rotconverter [ ± ] rotA [ ± rotB ] [ ± rotC ] …
+[ -A ] [ -D ]
+[ -Fs|t ]
+[ -G ]
+[ -M[fact] ]
+[ -N ] [ -S ]
+[ -T ] [ -W ]
+[ -V[level]</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/spotter/rotsmoother.html" data-score="5">rotsmoother</a><p class="context">...rotsmoother
+Get mean rotations and covariance matrices from set of finite rotations
+
+Synopsis
+gmt rotsmoother [ table ]
+[ -A ]
+[ -C ]
+[ -N ]
+[ -S ]
+[ -Tages ]
+[ -V[level] ]
+[ -W ]
+[ -Z ]
+[ -bbinary ]
+[ -dnodata</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/seis/sac.html" data-score="5">sac</a><p class="context">...line options.
+pen, if given, will override the pen from -W option for current SAC file only.
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+-Rwest/east/south/north[/zmin/zm...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/sample1d.html" data-score="5">sample1d</a><p class="context">...sample1d
+Resample 1-D table data using splines
+
+Synopsis
+gmt sample1d [ table ]
+[ -A[f|p|m|r|R][+d][+l] ]
+[ -C[section/]master|cpt|color\(_1\),color\(_2\)[,color\(_3\),…][+h[hinge]][+idz][+u|Uunit][+sfname] ]
+[</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/segy/segy.html" data-score="5">segy</a><p class="context">...der of the traces in the file is
+not significant). Standard GMT geometry routines are used so that in
+principle any map <span class="highlighted">projection</span> may be used, however it is likely that the
+geographic <span class="highlighted">projection</span>s will lead to unexpected results. Beware als...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/segy/segy2grd.html" data-score="5">segy2grd</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/segy/segyz.html" data-score="5">segyz</a><p class="context">...der of the traces in the file is
+not significant). Standard GMT geometry routines are used so that in
+principle any map <span class="highlighted">projection</span> may be used, however it is likely that the
+geographic <span class="highlighted">projection</span>s will lead to unexpected results. Beware tha...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtselect.html" data-score="5">select</a><p class="context">...tion. See option -: on how to read
+(y, x) or (lat, lon) files (this option affects all module input data).  Note: If no <span class="highlighted">projection</span>
+information is used then you must supply -fg to tell select that your data are geographical.
+
+
+Required Argum...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/julia/session-4.html" data-score="5">Session Four</a><p class="context">...tem.
+If you hold the color cube so that the black and white corners are along a vertical axis, then the other
+6 corners project onto the horizontal plane to form a hexagon; the corners of this hexagon are the primary
+colors Red, Yellow, Gre...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/bash/session-4.html" data-score="5">Session Four</a><p class="context">...tem.
+If you hold the color cube so that the black and white corners are along
+a vertical axis, then the other 6 corners project onto the horizontal plane to
+form a hexagon; the corners of this hexagon are the primary colors Red,
+Yellow, Gre...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/julia/session-3.html" data-score="5">Session Three</a><p class="context">...gion and has depth values from -5475 to -89 meters. We want to
+As with previous plot commands we need to set up the map <span class="highlighted">projection</span> with proj. Here, however, we do not have
+to specify the region since that is by default assumed to be the ext...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/bash/session-3.html" data-score="5">Session Three</a><p class="context">...ake a contour map of
+this data; this is a job for grdcontour.  As with previous
+plot commands we need to set up the map <span class="highlighted">projection</span> with -J.
+Here, however, we do not have to specify the region since that is by
+default assumed to be the exten...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/julia/session-2.html" data-score="5">Session Two</a><p class="context">...mbols, and text on maps. We will
+build on the skills we acquired while familiarizing ourselves with the various GMT map <span class="highlighted">projection</span>s as well as
+how to select a data domain and boundary annotations.
+
+
+Program
+Purpose
+
+
+
+BASEMAPS
+
+
+basemap
+Cre...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/tutorial/bash/session-2.html" data-score="5">Session Two</a><p class="context">...bols, and text on maps.  We will build on the skills
+we acquired while familiarizing ourselves with the various
+GMT map <span class="highlighted">projection</span>s as well as how to select a data domain
+and boundary annotations.
+
+
+Program
+Purpose
+
+
+
+BASEMAPS
+
+
+basemap
+Cre...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtset.html" data-score="5">set</a><p class="context">...set
+Change individual GMT default settings
+
+Synopsis
+gmt set [ -C | -D[s|u] |
+-Gdefaultsfile ] [ -B|J|R|X|Y|pvalue ]
+PARAMETER1 value1 PARAMETER2 value2 PARAMETER3 value3
+…
+Note: No space is allowed between the</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtsimplify.html" data-score="5">simplify</a><p class="context">...simplify
+Line reduction using the Douglas-Peucker algorithm
+
+Synopsis
+gmt simplify [ table ] -Ttolerance
+[ -V[level] ]
+[ -bbinary ]
+[ -dnodata[+ccol] ]
+[ -eregexp ]
+[ -fflags ]
+[ -ggaps ]
+[ -hheaders ]
+[ -iflag</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/solar.html" data-score="5">solar</a><p class="context">...from UTC.
+Negative offsets look like −03:00 or −03. Positive offsets look like 02:00 or 02.
+
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-MWrite terminator(s) as a mult...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtspatial.html" data-score="5">spatial</a><p class="context">...ax.
++f - Check if the input features already exist among the features in file.
++p - Limit the comparison to points that project perpendicularly to points
+on the other line (and not its extension) [Default considers all distances
+between poi...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/spectrum1d.html" data-score="5">spectrum1d</a><p class="context">...spectrum1d
+Compute auto- [and cross-] spectra from one [or two] time series
+
+Synopsis
+gmt spectrum1d [ table ] [ -Ssegment_size ]
+[ -C[acgnopxy] ] [ -Ddt ] [ -L[h|m] ]
+[ -N[name_stem] ] [ -T ] [ -W ]
+[ -bbinary</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/sph2grd.html" data-score="5">sph2grd</a><p class="context">...sph2grd
+Compute grid from spherical harmonic coefficients
+
+Synopsis
+gmt sph2grd [ table ] -Ggrdfile
+-Iincrement
+-Rregion
+[ -D[g|n] ]
+[ -E ]
+[ -F[k]filter ]
+[ -Ng|m|s ]
+[ -Q ]
+[ -V[level] ]
+[ -bibinary ]
+[ -hhea</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/sphdistance.html" data-score="5">sphdistance</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/sphinterpolate.html" data-score="5">sphinterpolate</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/sphtriangulate.html" data-score="5">sphtriangulate</a><p class="context">...sphtriangulate
+Delaunay or Voronoi construction of spherical data
+
+Synopsis
+gmt sphtriangulate
+[ table ]
+[ -A ]
+[ -C ]
+[ -D ]
+[ -Lunit ]
+[ -Nfile ]
+[ -Qd|v ]
+[ -T ]
+[ -V[level] ]
+[ -bbinary ]
+[ -dnodata[+ccol]</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtsplit.html" data-score="5">split</a><p class="context">...split
+Split xyz[dh] data tables into individual segments
+
+Synopsis
+gmt split [ table ]
+[ -Aazimuth/tolerance ]
+[ -Ccourse_change]
+[ -Dminimum_distance ]
+[ -Fxy_filter/z_filter ]
+[ -N[template] ]
+[ -Qflags ]
+[ -</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/subplot.html" data-score="5">subplot</a><p class="context">...match the number of rows (or columns).
+
+For geographic maps, the height of each subplot depends on your map region and <span class="highlighted">projection</span>.  There are
+two options: (1) Specify both -R and -J and we use these to compute the height of each subplot.
+A...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/surface.html" data-score="5">surface</a><p class="context">...e (coarser) grids the effective convergence limit is divided
+by the grid spacing multiplier.
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. Select the data map <span class="highlighted">projection</span>. This <span class="highlighted">projection</span> is only used to add a referencing info
+to the grid formats t...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/potential/talwani2d.html" data-score="5">talwani2d</a><p class="context">...talwani2d
+Compute geopotential anomalies over 2-D bodies by the method of Talwani
+
+Synopsis
+gmt talwani2d [ table ]
+[ -A ] [ -Ddensity ] ]
+[ -Ff|n[lat]|v ]
+[ -M[h][v] ]
+[ -Ntrackfile ]
+[ -Tmin/max/inc[+i|n]|fil</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/potential/talwani3d.html" data-score="5">talwani3d</a><p class="context">...talwani3d
+Compute geopotential anomalies over 3-D bodies by the method of Talwani
+
+Synopsis
+gmt talwani3d [ table ]
+[ -A ]
+[ -Ddensity ] ]
+[ -Ff|n[lat]|v ]
+[ -Goutfile ]
+[ -Iincrement ]
+[ -M[h][v] ]
+[ -Ntrackfi</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/devdocs/team.html" data-score="5">Team</a><p class="context">...,
+a toolbox for Earth, Ocean, and Planetary Science, and its community!
+All are welcome to become involved with the GMT project! For more information
+about how to get involved, see the
+Contributing Guide.
+
+Distinguished Contributors
+GMT Dis...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/reference.html" data-score="5">Technical Reference</a><p class="context">...e
+2. Introduction
+3. General Features
+4. Standardized command line options
+5. GMT Coordinate Transformations
+6. GMT Map <span class="highlighted">Projection</span>s
+7. GMT Supplemental Packages
+8. GMT File Formats
+9. Including GMT Graphics into your Documents
+10. Predefine...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/ternary.html" data-score="5">ternary</a><p class="context">...all the
+segment headers and let any values thus found over-ride the command line settings.
+
+
+
+-JX[-]widthThe only valid <span class="highlighted">projection</span> is linear plot with specified ternary width.
+Use a negative width to indicate that positive axes directions b...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/text.html" data-score="5">text</a><p class="context">...[i|o] ]
+[ --PAR=value ]
+
+
+Description
+text plots text strings of variable size, font type, and
+orientation. Various map <span class="highlighted">projection</span>s are provided, with the option to
+draw and annotate the map boundaries.
+Greek characters, subscript, superscr...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/index.html" data-score="5">The Generic Mapping Tools Documentation</a><p class="context">...he GMT Docs! Here you’ll find resources for using GMT and examples of what
+it can do.
+
+
+
+
+
+
+Quick Links
+
+Common Options
+<span class="highlighted">Projection</span>s Specifications
+Default Settings (gmt.conf)
+Color Codes and Lists
+Interactive Color Picker
+
+
+35 Postscript Fo...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/trend1d.html" data-score="5">trend1d</a><p class="context">...trend1d
+Fit [weighted] [robust] polynomial/Fourier model for y = f(x) to xy[w] data
+
+Synopsis
+gmt trend1d [ table ]
+-Fxymrw|p|P|c
+-N[p|P|f|F|c|C|s|S|x]n[,…][+llength][+oorigin][+r]
+[ -Ccondition_number ]
+[ -I[c</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/trend2d.html" data-score="5">trend2d</a><p class="context">...trend2d
+Fit [weighted] [robust] polynomial for z = f(x,y) to xyz[w] data
+
+Synopsis
+gmt trend2d [ table ]
+-Fxyzmrw|p
+-Nn_model[+r]
+[ -Ccondition_number ]
+[ -I[confidence_level] ]
+[ -V[level] ]
+[ -W[+s|w] ]
+[ -bb</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/triangulate.html" data-score="5">triangulate</a><p class="context">...lation, i.e., it
+finds how the points should be connected to give the most equilateral
+triangulation possible. If a map <span class="highlighted">projection</span> (give -R and -J) is
+chosen then it is applied before the triangulation is calculated. By
+default, the output...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtvector.html" data-score="5">vector</a><p class="context">...ore advanced 3-D rotations as used in plate tectonic
+reconstructions, see the GMT “spotter” supplement.
+
+
+See Also
+gmt, project, mapproject</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/geodesy/velo.html" data-score="5">velo</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+-Rwest/east/south/north[/zmin/zm...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/gmtwhich.html" data-score="5">which</a><p class="context">...which
+Find full path to specified files
+
+Synopsis
+gmt which files
+[ -A ]
+[ -C ]
+[ -D ]
+[ -G[a|c|l|u] ]
+[ -V[level] ]
+[ --PAR=value ]
+Note: No space is allowed between the option flag and the associated argument</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/wiggle.html" data-score="5">wiggle</a><p class="context">...holding a number of data columns. If no tables are given
+then we read from standard input.  
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. (See full description) (See technical reference)
+(See <span class="highlighted">projection</span>s table).
+
+
+
+-Rxmin/xmax/ymin/ymax[+r][+uuni...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/x2sys/x2sys_binlist.html" data-score="5">x2sys_binlist</a><p class="context">...ength units are obtained via the TAG
+setting (see x2sys_init).
+
+
+
+-EConvert geographic data to a cylindrical equal-area <span class="highlighted">projection</span> prior
+to binning. Basically, we apply the <span class="highlighted">projection</span>
+-JYlon0/37:04:17.166076/360, where lon0 is the
+mid-longi...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/x2sys/x2sys_cross.html" data-score="5">x2sys_cross</a><p class="context">...he command line. By default, x2sys_cross will look
+for both external and internal COEs. As an option, you may choose to
+project all data using one of the map-<span class="highlighted">projection</span>s prior to calculating
+the COE.
+
+
+Required Arguments
+
+tracksCan be one o...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/x2sys/x2sys_datalist.html" data-score="5">x2sys_datalist</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/x2sys/x2sys_get.html" data-score="5">x2sys_get</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/x2sys/x2sys_init.html" data-score="5">x2sys_init</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/x2sys/x2sys_list.html" data-score="5">x2sys_list</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/x2sys/x2sys_merge.html" data-score="5">x2sys_merge</a><p class="context">...x2sys_merge
+Merge an updated COEs table (smaller) into the main table (bigger)
+
+Synopsis
+gmt x2sys_merge -Amain_COElist.txt -Mnew_COElist.txt
+[ --PAR=value ]
+Note: No space is allowed between the option flag an</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/x2sys/x2sys_put.html" data-score="5">x2sys_put</a><p class="context">...x2sys_put
+Update track index database from track bin file
+
+Synopsis
+gmt x2sys_put [ info.tbf ] -TTAG [ -D ] [ -F ]
+[ -V[level] ]
+[ --PAR=value ]
+Note: No space is allowed between the option flag and the associa</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/x2sys/x2sys_report.html" data-score="5">x2sys_report</a><p class="context">...in one of several ways:
+
+-Rwest/east/south/north. This is the standard way to specify geographic regions
+when using map <span class="highlighted">projection</span>s where meridians and parallels are rectilinear. The coordinates may be specified in
+decimal degrees or in [±]...</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/supplements/x2sys/x2sys_solve.html" data-score="5">x2sys_solve</a><p class="context">...x2sys_solve
+Determine least-squares systematic correction from crossovers
+
+Synopsis
+gmt x2sys_solve -Ccolumn -TTAG -Ec|d|g|h|s|y|z
+[ COE_list.txt ]
+[ -V[level] ]
+[ -W[+u] ]
+[ -bibinary ]
+[ -dinodata[+ccol] ]
+[</p></li><li><a href="https://docs.generic-mapping-tools.org/latest/xyz2grd.html" data-score="5">xyz2grd</a><p class="context">...able is called “z” (grid) or “cube” (data cube). You can
+rename this netCDF variable via +v.
+
+
+
+-JparametersSpecify the <span class="highlighted">projection</span>. Use the -J syntax to save the georeferencing info as CF-1 compliant metadata in
+netCDF grids. Remember also...</p></li></ul></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr>
+
+  <div role="contentinfo">
+    <p>© Copyright 2025, The GMT Team.
+      <span class="lastupdated">Last updated on Jul 26, 2025.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org/">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+  <script>
+    jQuery(function() { Search.loadIndex("searchindex.js"); });
+  </script>
+  
+  <script id="searchindexloader"></script>
+   
+
+
+
+<script src="Search%20%E2%80%94%20GMT%206.6.0%20documentation_files/searchindex.js"></script></body></html>

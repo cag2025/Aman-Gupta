@@ -1,0 +1,3 @@
+taup_time -mod ak135 -h 10 -evt 30.9113 99.920 -sta 15.492 73.825 -ph P,S > evt1.dat
+taup_time -mod ak135 -h 100 -evt 39.1210 90.489 -sta 15.492 73.825 -ph P,S > evt2.dat
+taup_time -mod ak135 -h 20 -evt 20.1250 103.489 -sta 15.492 73.825 -ph P,S > evt3.dat

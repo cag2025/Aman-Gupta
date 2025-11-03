@@ -1,0 +1,8 @@
+
+Model: ak135
+Distance   Depth   Phase   Travel    Ray Param  Takeoff  Incident  Purist    Purist
+  (deg)     (km)   Name    Time (s)  p (s/deg)   (deg)    (deg)   Distance   Name 
+-----------------------------------------------------------------------------------
+   28.39    10.0   P        354.46     8.913     27.75    27.71    28.39   = P    
+   28.39    10.0   S        641.31    15.742     29.38    29.33    28.39   = S    
+

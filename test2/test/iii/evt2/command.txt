@@ -1,0 +1,1 @@
+taup_path -mod ak135 -h 100 -evt 39.1210 90.489 -sta 15.492 73.825 -ph P,S> taup_path.gmt

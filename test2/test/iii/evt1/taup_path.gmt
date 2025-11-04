@@ -6,10 +6,10 @@
 #
 /bin/rm -f taup_path.ps
 # draw surface and label distances.
-psbasemap -K -P -R0/360/0/6371.0 -JP6.0i -B30p/500N > taup_path.ps
+gmt psbasemap -K -P -R0/360/0/6371.0 -JP6.0i -B30p/500N > taup_path.ps
 # draw circles for branches, note these are scaled for a 
 # map using -JP6.0i
-psxy -K -O -P -R -JP -Sc -A >> taup_path.ps <<ENDLAYERS
+gmt psxy -K -O -P -R -JP -Sc -A >> taup_path.ps <<ENDLAYERS
 0.0 0.0 6.0i
 0.0 0.0 6.0i
 0.0 0.0 5.9811645i
@@ -22,7 +22,7 @@ psxy -K -O -P -R -JP -Sc -A >> taup_path.ps <<ENDLAYERS
 ENDLAYERS
 
 # draw paths
-psxy -P -R -K -O -JP -m -A >> taup_path.ps <<END
+gmt psxy -P -R -K -O -JP -m -A >> taup_path.ps <<END
 > P at   354.46 seconds at    28.39 degrees for a     10.0 km deep source in the ak135 model with rayParam    8.913 s/deg.
     0.00    6361.0
     0.01    6359.0
@@ -404,5 +404,6 @@ psxy -P -R -K -O -JP -m -A >> taup_path.ps <<END
    28.38    6369.7
    28.39    6371.0
 END
-psxy -P -R -O -JP -m -A >> taup_path.ps <<END
+gmt psxy -P -R -O -JP -m -A >> taup_path.ps <<END
 END
+okular taup_path.ps

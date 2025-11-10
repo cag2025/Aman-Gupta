@@ -1,0 +1,4 @@
+taup_pierce -mod ak135 -h 10 -evt 39.1210 90.489 -sta 15.492 73.825 -ph P > pp_evt2.txt
+taup_pierce -mod ak135 -h 10 -evt 20.1250 103.489 -sta 15.492 73.825 -ph P > pp_evt3.txt
+taup_pierce -mod ak135 -h 10 -evt 30.9113 99.920 -sta 15.492 73.825 -ph S > pp_evt1.txt
+

@@ -1,0 +1,1 @@
+taup_time -mod ak135 -h 180 -evt 30 -20 -sta 82.2723  22.7284 >time.dat

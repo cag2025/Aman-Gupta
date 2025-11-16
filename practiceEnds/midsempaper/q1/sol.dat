@@ -1,6 +1,6 @@
 Distance   Depth   Phase   Travel    Ray Param  Takeoff  Incident  Purist    Purist
   (deg)     (km)   Name    Time (s)  p (s/deg)   (deg)    (deg)   Distance   Name 
 -----------------------------------------------------------------------------------
-   54.48   180.0   P        548.85     7.199     33.19    22.05    54.48   = P  
+   66.53   180.0   P        630.42     6.336     28.80    19.30    66.53   = P    
 
    The first recorded travel time is 548.85s

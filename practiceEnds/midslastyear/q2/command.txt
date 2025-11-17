@@ -1,0 +1,1 @@
+taup_path -mod ak135 -h 160 -evt -20 28 -sta 25 80 -ph SKS,S --gmt

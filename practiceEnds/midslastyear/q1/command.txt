@@ -1,0 +1,1 @@
+taup_pierce -mod ak135 -h 160 -evt -20 28 -sta 25 80 -ph SKS,S -pierce 150> pierce.dat
